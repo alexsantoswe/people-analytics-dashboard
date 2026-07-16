@@ -17,13 +17,13 @@ Mais do que construir gráficos, o foco do projeto foi **modelar os dados corret
 ## Preview
 
 ### Capa
-![Capa do dashboard](documentos/Capa.png)
+![Capa do dashboard](Capa.png)
 
 ### Visão Geral — Headcount e Folha
-![Dashboard geral](documentos/Painel%20de%20controle.png)
+![Dashboard geral](Dashboard.png)
 
 ### Turnover, Treinamentos e Férias
-![Turnover, treinamentos e férias](documentos/Turnover.png)
+![Turnover, treinamentos e férias](Turnover.png)
 
 ---
 
