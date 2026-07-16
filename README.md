@@ -1,12 +1,12 @@
-People Analytics Dashboard — Power BI
+Painel de Análise de Pessoas — Power BI
 
 Painel de gestão de pessoas construído em Power BI, simulando um cenário real de RH: acompanhamento de headcount, folha salarial, turnover, treinamentos e férias.
 
-> Dados fictícios**, gerados exclusivamente para fins de portfólio. Nenhuma informação real de empresa ou colaborador foi utilizada.
+> **Dados fictícios**, gerados exclusivamente para fins de portfólio. Nenhuma informação real de empresa ou colaborador foi utilizada.
 
 ---
 
-Objetivo
+## Objetivo
 
 Transformar uma base bruta de RH em um painel que responde perguntas reais de negócio: quantos funcionários estão ativos, qual o turnover por área e por motivo, como a folha evolui ao longo do tempo, e como estão treinamentos e férias do time.
 
@@ -17,13 +17,13 @@ Mais do que construir gráficos, o foco do projeto foi **modelar os dados corret
 ## Preview
 
 ### Capa
-![Capa do dashboard](Capa.png)
+![Capa do dashboard](documentos/Capa.png)
 
 ### Visão Geral — Headcount e Folha
-![Dashboard geral](Dashboard.png)
+![Dashboard geral](documentos/Painel%20de%20controle.png)
 
 ### Turnover, Treinamentos e Férias
-![Turnover, treinamentos e férias](Turnover.png)
+![Turnover, treinamentos e férias](documentos/Turnover.png)
 
 ---
 
@@ -40,7 +40,7 @@ O projeto usa um modelo relacional com 5 tabelas conectadas:
 | `Desligamentos` | Desligamentos, motivo e tipo (voluntário/involuntário) |
 | `Calendario` | Tabela de datas para análises temporais |
 
-## Principais medidas DAX
+## 📐 Principais medidas DAX
 
 - `Turnover %`, `Turnover Involuntario %`, `Turnover Voluntario %`
 - `Turnover por Motivo %`
@@ -65,6 +65,20 @@ O projeto usa um modelo relacional com 5 tabelas conectadas:
 - DAX (medidas calculadas)
 - Excel (tratamento inicial da base)
 
+## Estrutura do repositório
+
+```
+painel-de-analise-de-pessoas/
+├── README.md
+├── People_Analytics.pbix
+├── documentos/
+│   ├── Capa.png
+│   ├── Painel de controle.png
+│   └── Turnover.png
+└── dados/
+    └── Base_PowerBI_People_Analytics.xlsx
+```
+
 ## Como usar
 
 1. Baixe o arquivo `People_Analytics.pbix`
@@ -75,4 +89,4 @@ O projeto usa um modelo relacional com 5 tabelas conectadas:
 
 ## Contato
 
-Feedbacks e sugestões são bem-vindos! Fique à vontade para abrir uma *issue* ou me chamar no www.linkedin.com/in/alexsandro-nogueira-33b4b9108.
+Feedbacks e sugestões são bem-vindos! Fique à vontade para abrir uma *issue* ou me chamar no [LinkedIn](https://www.linkedin.com/in/alexsandro-nogueira-33b4b9108).
