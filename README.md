@@ -17,7 +17,7 @@ Mais do que construir gráficos, o foco do projeto foi **modelar os dados corret
 ## Preview
 
 ### Capa
-![Capa do dashboard](Capa.png)
+![Capa do dashboard](Capa)
 
 ### Visão Geral — Headcount e Folha
 ![Dashboard geral](Dashboard.png)
