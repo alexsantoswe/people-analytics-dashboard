@@ -1,0 +1,11 @@
+# Power BI
+*.pbix.bak
+~$*.pbix
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Temporários
+*.tmp
+*.log
